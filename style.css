@@ -28,3 +28,29 @@
 #nav-menu li:hover {
   background-color: #45567d;
 }
+.main-section {
+  height: 537px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #202022;
+}
+#introduction h1 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 84px;
+}
+#introduction h3 {
+  text-align: center;
+  color: #be3144;
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 200;
+  font-style: italic;
+}
