@@ -125,7 +125,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #202022;
+  background-color: #303841;
   color: white;
 }
 #footer-section h1 {
@@ -153,7 +153,16 @@
   font-family: sans-serif;
 }
 .copyright-section {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   border-top: 4px solid #be3144;
-  background-color: #202022;
+  background-color: #303841;
   color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: sans-serif;
+  font-weight: 100;
 }
