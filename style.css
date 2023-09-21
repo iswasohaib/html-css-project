@@ -54,3 +54,67 @@
   font-weight: 200;
   font-style: italic;
 }
+#project-section {
+  padding: 75px 0px 75px 0px;
+  background-color: #45567d;
+}
+#project-section h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 40px;
+  color: white;
+}
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  padding: 20px;
+}
+.project a {
+  text-decoration: none;
+  color: white;
+}
+.project img {
+  width: 377px;
+  height: 377px;
+}
+.project h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #303841;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  margin: -5px;
+}
+#project-section button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 13px 20px 13px 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 200;
+  background-color: #303841;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+}
+#project-section button a {
+  text-decoration: none;
+  color: white;
+}
+#project-section button:hover {
+  background-color: #be3144;
+}
+.hide {
+  display: none;
+}
+.project:hover .hide {
+  display: inline;
+  color: rgba(255, 106, 0, 0.87);
+}
