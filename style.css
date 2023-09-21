@@ -118,3 +118,42 @@
   display: inline;
   color: rgba(255, 106, 0, 0.87);
 }
+#footer-section {
+  height: 537px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #202022;
+  color: white;
+}
+#footer-section h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 84px;
+}
+#footer-section h4 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 200;
+  font-style: italic;
+}
+.social-links {
+  padding: 20px 0px 20px 0px;
+}
+.social-links i {
+  padding: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  font-family: sans-serif;
+}
+.copyright-section {
+  border-top: 4px solid #be3144;
+  background-color: #202022;
+  color: white;
+}
