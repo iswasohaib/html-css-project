@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Html CSS Project</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-</head>
+  </head>
   <body>
     <div class="nav-bar">
       <div id="nav-menu">
@@ -26,6 +25,15 @@
     </div>
     <div id="project-section">
       <h2><u>These are some of my projects</u></h2>
+      <div class="slider-container">
+        <img src="random-quote-machine.png" alt="" class="slides">
+        <img src="map.jpg" alt="" class="slides">
+        <img src="tribute.jpg" alt="" class="slides">
+      </div>
+      <div class="slider-nav">
+        <button onclick="goPrev()">prev</button>
+        <button onclick="goNext()">next</button>
+      </div>
       <div class="project-container">
         <div class="project">
           <a href="#">
@@ -98,5 +106,6 @@
         <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
         <p>&copy; Created for freeCodeCamp (<i class="fa fa-fire"></i>)</p>
     </div>
+    <script src="scriptfile.js"></script>
   </body>
 </html>
